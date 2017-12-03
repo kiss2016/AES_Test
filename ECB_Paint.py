@@ -32,7 +32,7 @@ def decrypt_ECB(str, key):
 if __name__=='__main__':
     key = input(u"请输入明文密钥：")
     print(md5Encode(key))
-    Text = input(u"请输入ECB密文：")
+    Text = input(u"\n请输入ECB密文：")
     # ECB模式解密
     try:
         plaintext = decrypt_ECB(Text, key)
